@@ -1,4 +1,4 @@
-from helpers import initialize_database, fetch_stock_data
+from lib.helpers import initialize_database, fetch_stock_data
 from lib.models.stock import Stock
 import sys
 

@@ -47,6 +47,18 @@ Copy code
 python lib/initialize_db.py
 You can use the CLI for various functionalities. For help, run:
 
+Then, run it with:
+
+bash
+Copy code
+python main.py
+
+Next Steps
+Now you can interact with your program by entering options:
+
+Fetch Stock Data: Enter a stock ticker when prompted.
+Delete Stock Entry: Enter a stock ID when prompted.
+
 bash
 Copy code
 python lib/cli.py --help

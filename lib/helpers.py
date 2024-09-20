@@ -2,7 +2,7 @@ import os
 import requests
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from .models import Base
+from lib.models import Base
 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///financial_data.db")
 
